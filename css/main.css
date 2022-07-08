@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+      
+    background-color: hsl(225, 100%, 94%);
+    background-position-x: top;
+    background-position-y: top;
+    font-family: 'Red Hat Display';
+    
+
+}
+.img{
+    background-image: url('../images/pattern-background-desktop.svg');
+    height: 437px;
+    margin-top: -70px;
+    margin-bottom: -300px;
+
+}
+
+
+main{
+    width: 350px;
+    background: #fff;
+    border-radius: 15px;
+    margin-top: ; 
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+.hero{
+    background-image: url("../images/illustration-hero.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.body{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.title{
+    margin: 30px auto;
+    text-align: center;
+}
+
+h3{
+    padding-bottom: 15px;
+    color: hsl(223, 47%, 23%);
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.title p{
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.plan .left{
+    display: inline-flex;
+}
+
+.plan .left .icon img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.plan .left .text{
+    font-size: 12px;
+}
+
+.plan .left .text #bold{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.plan .left .text p{
+    color: hsl(228, 45%, 44%);
+}
+
+.plan a{
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.plan a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+
+}
+
+.div3{
+    text-align: center;
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(245, 75%, 52%);
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgb(214,225,255), 0 6px 20px 0 rgb(214,225,255);
+}
+
+.div3:hover{
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 375px){
+    .img{
+        /* background-image: url('../images/pattern-background-mobile.svg');
+
+        height: 437px;
+        margin-top: -70px;
+        margin-bottom: -300px; */
+        display: none;   
+    }    
+
+    main{
+        width: 300px;
+        background: #fff;
+        border-radius: 15px;
+        margin-top: 30px; 
+        margin-bottom:15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        box-shadow: 0 4px 8px 0 rgb(214,225,255), 0 6px 20px 0 rgb(214,225,255);
+        
+    }
+
+    .hero{
+        width: 300px;
+        
+    }
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);     
+}
